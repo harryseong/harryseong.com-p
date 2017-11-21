@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url("../images/typewriter.jpg") no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade {
+    opacity: .8;
+}
+@media screen and (max-width: 500px) {
+    div {
+        width: 70%;
+    }
+}
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url("../images/typewriter.jpg") #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+
+#typewriter {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 70px;
+    width: 450px;
+    height: auto;
+    margin: 40px;
+    float: right;
+    opacity: .9;
+    border-radius: 3px;
+}
+#typewriter-text {
+    margin-bottom: 40px;
+}
+#typewriter h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 0;
+    margin-top: 0;
+    letter-spacing: 8px;
+    opacity: 0.9;
+}
+#typewriter p {
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+#vid-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: none;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0.4;
+}
+#vid-btn i {
+    opacity: 0.7;
+}
+#vid-btn:hover {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+}
+#vid-btn:focus {
+    outline: none;
+}
+
+#enter {
+    display: block;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: none;
+    margin: auto;
+    margin-top: auto;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.23);
+    color: #fff;
+    border-radius: 1px;
+    transition: .5s background;
+    opacity: 0.8;
+}
+
+#enter:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
