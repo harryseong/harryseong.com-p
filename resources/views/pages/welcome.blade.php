@@ -10,7 +10,6 @@
 
 <body>
 
-<div class="content">
     @include('partials._nav')
 
     <video autoplay="autoplay" poster="images/typewriter.jpg" id="bgvid">
@@ -35,8 +34,7 @@
         <button id="vid-btn"><i class="fa fa-pause" aria-hidden="true"></i></button>
     </div>
 
-    <div class="footer footer-dark">harryseong.com</div>
-</div>
+    <div class="footer footer-fixed footer-dark">harryseong.com</div>
 
 <script>
     var video = document.getElementById("bgvid");

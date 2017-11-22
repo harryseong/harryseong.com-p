@@ -12,7 +12,7 @@
 <div id="map"></div>
 <div id="mapWall"></div>
 
-<div class="container col-md-12">
+<div class="container-places">
     @foreach($places as $place)
         <div class="placeBox" id="{{ $place->id }}">
             <strong><i class="fa fa-plane" aria-hidden="true"></i> {{ $place->display_name }}</strong>
@@ -27,10 +27,14 @@
             <h2><i class="fa fa-globe" aria-hidden="true"></i> Places</h2>
         </div>
         <div class="placeInfoBody">
-            <p>Welcome to Places! Feel free to fly to the major cities listed here.</p>
+            <h3>Welcome to Places!</h3>
+            <p>I find it fascinating to make note of differences and similarities between the many places around
+                the world, no matter how small or big. From food to street signs to architecture to people, it is interesting to observe the features
+            that make each place unique while identifying commonalities that are shared by different places. Listed here are some of my
+            favorite places that I either had to pleasure to visit or call my home. Feel free to fly around and visit these places.</p>
         </div>
 
-        <div class="footer">harryseong.com</div>
+        <div class="footer footer-fixed">harryseong.com</div>
 </div>
 
 @include('partials._javascript')
@@ -54,7 +58,7 @@
         container: 'map',
         center: seoul,
         style: 'mapbox://styles/mapbox/dark-v9',
-        zoom: 10
+        zoom: 2
     });
 
     // Variable for detecting flying status
@@ -162,14 +166,10 @@
     map.on('flystart', function(){
         flying = true;
         $('.placeStatus').removeClass('hide-down').addClass('show-down');
-//        $('.placeInfoHead').removeClass('show-right').addClass('hide-right');
-//        $('.placeInfoBody').removeClass('show-right').addClass('hide-right');
     });
     map.on('flyend', function(){
         flying = false;
         $('.placeStatus').removeClass('show-down').addClass('hide-down');
-//        $('.placeInfoHead').removeClass('hide-right').addClass('show-right');
-//        $('.placeInfoBody').removeClass('hide-right').addClass('show-right');
     });
 
     $('.newPlaceButton').click(function(){

@@ -26,7 +26,7 @@
                             <a href="{{ url('password/reset') }}">Forgot Password</a>
                         </div>
                         <div class="col-md-6 d-flex justify-content-end">
-                            {{ Form::submit('Login', ['class' => 'btn btn-primary btn-lg']) }}
+                            {{ Form::submit('Login', ['class' => 'btn btn-primary']) }}
                         </div>
                     </div>
                     <div class="form-group row d-flex justify-content-end">

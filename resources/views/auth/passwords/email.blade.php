@@ -8,14 +8,17 @@
         <div class="col-md-4 col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h1>Reset Password</h1>
+                    <h1><i class="fa fa-refresh" aria-hidden="true"></i> Reset Password</h1>
+
                     @if (session('status'))
                         <div class="alert alert-success">
                             {{ session('status') }}
                         </div>
                     @endif
 
-                    {!! Form::open(['url' => 'password/email', 'class' => 'spacing-top-30']) !!}
+                    <p>A link to reset your password will be emailed to you.</p>
+
+                    {!! Form::open(['url' => 'password/email']) !!}
 
                     <div class="form-group row">
                         <div class="col-md-12">
@@ -24,7 +27,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12 d-flex justify-content-end">
-                        {{ Form::submit('Reset Password', ['class' => 'btn btn-primary btn-lg']) }}
+                        {{ Form::submit('Reset Password', ['class' => 'btn btn-primary']) }}
                         </div>
                     </div>
                     {!! Form::close() !!}

@@ -4,22 +4,28 @@
 
 @section('content')
 
-    <div class="row justify-content-md-center">
+    <div class="row">
         <div class="col-md-12">
             <h1><i class="fa fa-comment-o" aria-hidden="true"></i> Blog</h1>
         </div>
     </div>
 
     @foreach($posts as $post)
-    <div class="row justify-content-md-center spacing-top-30">
+    <div class="row spacing-top-30">
         <div class="col-md-12">
-            <h2>{{ $post->title }}</h2>
-            <h6>Published {{ date('F j, Y', strtotime($post->created_at)) }}</h6>
+            <div class="card">
+                <div class="card-body">
+                    <h4>{{ $post->title }}</h4>
+                    <p class="card-subtitle mb-2 text-muted">Published {{ date('F j, Y', strtotime($post->created_at)) }}</p>
+                    <p class="card-text">{{ substr(strip_tags($post->body), 0, 250) }}{{ strlen(strip_tags($post->body)) > 250 ? "..." : "" }}</p>
 
-            <p>{{ substr(strip_tags($post->body), 0, 250) }}{{ strlen(strip_tags($post->body)) > 250 ? "..." : "" }}</p>
-
-            <a href="{{ route('blog.single', $post->slug) }}" class="btn btn-primary">Read More</a>
-            <hr>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-end">
+                            <a href="{{ route('blog.single', $post->slug) }}" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     @endforeach
