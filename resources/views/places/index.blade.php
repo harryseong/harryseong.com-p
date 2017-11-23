@@ -7,21 +7,21 @@
 </head>
 
 <body>
-@include('partials._nav')
+    @include('partials._nav')
 
-<div id="map"></div>
-<div id="mapWall"></div>
+    <div id="map"></div>
+    <div id="mapWall"></div>
 
-<div class="container-places">
-    @foreach($places as $place)
-        <div class="placeBox" id="{{ $place->id }}">
-            <strong><i class="fa fa-plane" aria-hidden="true"></i> {{ $place->display_name }}</strong>
-        </div>
-    @endforeach
+    <div class="container-places">
+        @foreach($places as $place)
+            <div class="placeBox" id="{{ $place->id }}">
+                <strong><i class="fa fa-plane" aria-hidden="true"></i> {{ $place->display_name }}</strong>
+            </div>
+        @endforeach
 
-    @if ( Auth::check())
-        <div class="newPlaceButton"><strong><i class="fa fa-plus-circle" aria-hidden="true"></i> New Place</strong></div>
-    @endif
+        @if ( Auth::check())
+            <div class="newPlaceButton"><strong><i class="fa fa-plus-circle" aria-hidden="true"></i> New Place</strong></div>
+        @endif
 
         <div class="placeInfoHead">
             <h2><i class="fa fa-globe" aria-hidden="true"></i> Places</h2>
@@ -30,24 +30,23 @@
             <h3>Welcome to Places!</h3>
             <p>I find it fascinating to make note of differences and similarities between the many places around
                 the world, no matter how small or big. From food to street signs to architecture to people, it is interesting to observe the features
-            that make each place unique while identifying commonalities that are shared by different places. Listed here are some of my
-            favorite places that I either had to pleasure to visit or call my home. Feel free to fly around and visit these places.</p>
+                that make each place unique while identifying commonalities that are shared by different places. Listed here are some of my
+                favorite places that I either had to pleasure to visit or call my home. Feel free to fly around and visit these places.</p>
         </div>
+    </div>
 
-        <div class="footer footer-fixed">harryseong.com</div>
-</div>
+    <div class="footer footer-fixed">harryseong.com</div>
 
-@include('partials._javascript')
-
+    @include('partials._javascript')
 </body>
-
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
 
 <script>
     $(".navbar").addClass("bg-light").removeClass("navbar-dark").addClass("navbar-light");
     $(".navbar-login").removeClass("navbar-login-dark").addClass("navbar-login-light");
     $(".footer").addClass("footer-dark")
 </script>
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
 
 <script>
     var seoul = new mapboxgl.LngLat(127.02, 37.53);
