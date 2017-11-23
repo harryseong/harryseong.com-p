@@ -18,4 +18,13 @@
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Force the URL to www
+    RewriteCond %{HTTP_HOST} ^harryseong.com [NC]
+    RewriteRule ^(.*)$ http://www.harryseong.com/$1 [L,R=301,NC]
+
+    # Force HTTPS
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
 </IfModule>
