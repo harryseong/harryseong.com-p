@@ -37,16 +37,16 @@ video {
 #typewriter {
     background: rgba(0, 0, 0, 0.3);
     color: white;
-    padding: 70px;
+    padding: 60px;
     width: 450px;
     height: auto;
-    margin: 40px;
+    margin: 10px 40px;
     float: right;
     opacity: .9;
     border-radius: 3px;
 }
 #typewriter-text {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 #typewriter h1 {
     font-size: 40px;

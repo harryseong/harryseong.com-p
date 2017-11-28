@@ -21,7 +21,8 @@
             <div class="col-md-12">
                 <h1>Welcome</h1>
                 <p>
-                <p>The typewriter that you see here is my Remington Rand Deluxe Model 5, a model that was manufactured in the 1940's.</p>
+                <p>The typewriter that you see here is my Remington Rand Deluxe Model 5, a model that was manufactured in the 1940's. I was inspired to acquire a typewriter for myself after
+                reading about Tom Hanks' quirky fascination and passion for these mechanical word factories.</p>
                 <p>My relationship with technology is a necessary one, though one which continues to exist with a faint whisper of the hackneyed hyphenated adjective, "love-hate."</p>
                 <p>You are welcome to enter and peer about into the world of the man who sits on the proverbial fence regarding his relationship to the aforementioned necessity.</p>
             </div>
