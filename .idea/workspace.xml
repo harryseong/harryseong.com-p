@@ -65,21 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="224" column="14" lean-forward="true" selection-start-line="224" selection-start-column="14" selection-end-line="224" selection-end-column="14" />
+            <state relative-caret-position="462">
+              <caret line="186" column="4" lean-forward="true" selection-start-line="186" selection-start-column="4" selection-end-line="187" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="welcome.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/welcome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="122">
+              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -163,7 +163,6 @@
         <option value="$PROJECT_DIR$/resources/views/partials/_javascript.blade.php" />
         <option value="$PROJECT_DIR$/public/css/about.css" />
         <option value="$PROJECT_DIR$/resources/views/partials/_footer.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/welcome.css" />
         <option value="$PROJECT_DIR$/resources/views/partials/_messages.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/places/create.blade.php" />
@@ -185,6 +184,7 @@
         <option value="$PROJECT_DIR$/resources/views/blog/single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/css/welcome.css" />
       </list>
     </option>
   </component>
@@ -438,12 +438,12 @@
       <workItem from="1511296109644" duration="228000" />
       <workItem from="1511315689867" duration="2851000" />
       <workItem from="1511363292255" duration="8825000" />
-      <workItem from="1511798568040" duration="7660000" />
+      <workItem from="1511798568040" duration="7898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218714000" />
+    <option name="totallyTimeSpent" value="218952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -752,18 +752,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/welcome.css">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="462">
+          <caret line="186" column="4" lean-forward="true" selection-start-line="186" selection-start-column="4" selection-end-line="187" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/public/css/welcome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="224" column="14" lean-forward="true" selection-start-line="224" selection-start-column="14" selection-end-line="224" selection-end-column="14" />
+        <state relative-caret-position="122">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding />
         </state>
       </provider>
