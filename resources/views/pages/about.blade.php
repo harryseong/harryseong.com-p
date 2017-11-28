@@ -11,6 +11,7 @@
     </div>
 
     <hr>
+    <br>
 
     <div class="row">
         <div class="col-md-12">
@@ -30,7 +31,9 @@
         </div>
     </div>
 
+    <br>
     <hr>
+    <br>
 
     <div class="row">
         <div class="col-md-12">
@@ -42,11 +45,11 @@
             <img src="images/About.jpg" class="about-me-image image img-thumbnail">
         </div>
         <div class="col-lg-6 col-md-9 col-sm-9">
-            <p>I graduated with a Biology degree from Northwestern University, but luckily found my true passion in computer science.
+            <p>I graduated with a Biology degree from Northwestern University, but shortly thereafter found my true passion in computer science.
             My foray into professional-level development began with full-stack Java/Spring Boot development projects at Northwestern University.
             I have since picked up a few projects both inside and outside work while trying out different languages and frameworks. My desire is to stay
-            forever-curious while trying, learning, and growing as much as I can. The prospect of exploring realms unfamiliar to me always brings about
-            much excitement, because I know things that presently remain mysteries to me can become enriching knowledge to me in the future.</p>
+            forever-curious and grow constantly as a human being. I just want to explore, learn, try, and repeat. The prospect of exploring realms unfamiliar to me always brings about
+            much excitement, because I know things that remain mysteries today can become enriching knowledge tomorrow.</p>
             <strong><i class="fa fa-star-o" aria-hidden="true"></i> Hometown:</strong> Seoul, South Korea<br>
             <strong><i class="fa fa-flag-o" aria-hidden="true"></i> Nationality:</strong> United States<br>
             <strong><i class="fa fa-language" aria-hidden="true"></i> Languages:</strong> English, Korean<br>
@@ -55,12 +58,21 @@
             <strong><i class="fa fa-futbol-o" aria-hidden="true"></i> Hobbies:</strong> Coding, Acoustic Guitar, Bass Guitar, Piano, Biking, Cooking, Reading, Travelling<br>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
+            <br>
             <h3><i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i> I just want to explore, learn, try, and repeat.
                 <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
         </div>
     </div>
 
+    <br>
     <hr>
+    <br>
+
+    <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://github.com/harryseong" class="social-media-icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></div>
+        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://www.linkedin.com/in/harry-seong-78957777" class="social-media-icon"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a></div>
+        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://www.facebook.com/harryhseong" class="social-media-icon"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a></div>
+    </div>
 
 @stop
 
