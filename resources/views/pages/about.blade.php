@@ -19,7 +19,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <p>This website was built for the purpose of learning the Laravel framework while testing out some creative and practical elements.
+            <p>This website was built for the purpose of learning the Laravel PHP framework while testing out some creative and practical elements.
                 Hidden administrative functionality allows me to perform CRUD operations on Places and Blog entries. Ajax calls are implemented
             to update the Place page's map and information box as different cities are selected.</p>
             <strong>Languages:</strong> HTML, CSS, JavaScript, PHP<br>
