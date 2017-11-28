@@ -29,7 +29,7 @@
         <div class="placeInfoBody">
             <h3>Welcome to Places!</h3>
             <p>I find it fascinating to make note of differences and similarities between the many places around
-                the world, no matter how small or big. From food to street signs to architecture to people, it is interesting to observe the features
+                the world, no matter how small or big. From foods to street signs to architecture to people, it is interesting to observe the features
                 that make each place unique while identifying commonalities that are shared by different places. Listed here are some of my
                 favorite places that I either had to pleasure to visit or call my home. Feel free to fly around and visit these places.</p>
         </div>
