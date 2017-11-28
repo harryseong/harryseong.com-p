@@ -11,7 +11,6 @@
     </div>
 
     <hr>
-    <br>
 
     <div class="row">
         <div class="col-md-12">
@@ -31,9 +30,7 @@
         </div>
     </div>
 
-    <br>
     <hr>
-    <br>
 
     <div class="row">
         <div class="col-md-12">
@@ -41,10 +38,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-2 col-md-3 col-sm-3">
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <img src="images/About.jpg" class="about-me-image image img-thumbnail">
-        </div>
-        <div class="col-lg-6 col-md-9 col-sm-9">
+
             <p>I graduated with a Biology degree from Northwestern University, but shortly thereafter found my true passion in computer science.
             My foray into professional-level development began with full-stack Java/Spring Boot development projects at Northwestern University.
             I have since picked up a few projects both inside and outside work while trying out different languages and frameworks. My desire is to stay
@@ -57,16 +53,14 @@
             <strong><i class="fa fa-home" aria-hidden="true"></i> Current Residence:</strong> Evanston, Illinois<br>
             <strong><i class="fa fa-futbol-o" aria-hidden="true"></i> Hobbies:</strong> Coding, Acoustic Guitar, Bass Guitar, Piano, Biking, Cooking, Reading, Travelling<br>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <br>
             <h3><i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i> I just want to explore, learn, try, and repeat.
                 <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
         </div>
     </div>
 
-    <br>
     <hr>
-    <br>
 
     <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
         <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://github.com/harryseong" class="social-media-icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></div>
