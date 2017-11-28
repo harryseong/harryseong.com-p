@@ -57,8 +57,8 @@
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-md-12">
-                    {{ Form::submit('Add Comment', ['class' => 'btn btn-block btn-primary']) }}
+                <div class="col-md-12 d-flex justify-content-end">
+                    <input type="submit" value="Add Comment" class="btn btn-success">
                 </div>
             </div>
 
