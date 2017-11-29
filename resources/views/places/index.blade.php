@@ -64,10 +64,13 @@
     var flying = false;
 
     // Initialize variable for identifying previous placeBox
+    var currentId = 0;
     var previousId = 0;
 
     $('.placeBox').click(function(e) {
-        var currentId = event.target.id;
+        if( !e ) e = window.event;
+
+        currentId = e.target.id;
         var currentPlaceBox = $('#'+currentId);
 
         // Reset previous placeBox
