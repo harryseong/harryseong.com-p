@@ -12,7 +12,7 @@
 
     @include('partials._nav')
 
-    <video autoplay="autoplay" poster="images/typewriter.jpg" id="bgvid">
+    <video autoplay="autoplay" id="bgvid">
         <source src="videos/welcome.mp4" type="video/mp4"/>
     </video>
 

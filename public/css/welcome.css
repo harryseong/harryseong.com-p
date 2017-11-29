@@ -13,7 +13,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url("../images/typewriter.jpg") no-repeat;
+    /*background: url("../images/typewriter.jpg") no-repeat;*/
     background-size: cover;
     transition: 1s opacity;
 }
@@ -26,9 +26,9 @@ video {
     }
 }
 @media screen and (max-device-width: 800px) {
-    html {
-        background: url("../images/typewriter.jpg") #000 no-repeat center center fixed;
-    }
+    /*html {*/
+        /*background: url("../images/typewriter.jpg") #000 no-repeat center center fixed;*/
+    /*}*/
     #bgvid {
         display: none;
     }
