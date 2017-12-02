@@ -79,7 +79,7 @@ body.body-gray {
 }
 
 .social-media-row {
-    height: 70px;
+    height: 50px;
 }
 .social-media-icon {
     color: inherit;
@@ -111,18 +111,18 @@ body.body-gray {
 }
 
 a.about-header{
-    font-size: 33px;
+    font-size: 31px;
     font-weight: 600;
     transition: 0.25s;
     text-decoration: none;
     color: inherit;
 }
 a.about-header.collapsed {
-    font-size: 30px;
+    font-size: 28px;
     transition: 0.25s;
 }
 a.about-header:hover {
-    font-size: 33px;
+    font-size: 31px;
     transition: 0.25s;
 }
 

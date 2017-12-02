@@ -41,7 +41,7 @@
             </a>
             <div id="about-section-2" class="collapse" role="tabpanel">
                 <div class="row">
-                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
                         <img src="images/About.jpg" class="about-me-image image img-thumbnail">
 
                         <p>I graduated with a Biology degree from Northwestern University, but shortly thereafter found my true passion in computer science.
@@ -49,17 +49,17 @@
                             I have since picked up a few projects both inside and outside work while trying out different languages and frameworks. My desire is to stay
                             forever-curious and grow constantly as a human being. I just want to explore, learn, try, and repeat. The prospect of exploring realms unfamiliar to me always brings about
                             much excitement, because I know things that remain mysteries today can become enriching knowledge tomorrow.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                        <h3><i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i> I just want to explore, learn, try, and repeat.
+                            <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+                        <br>
                         <strong><i class="fa fa-star-o" aria-hidden="true"></i> Hometown:</strong> Seoul, South Korea<br>
                         <strong><i class="fa fa-flag-o" aria-hidden="true"></i> Nationality:</strong> United States<br>
                         <strong><i class="fa fa-language" aria-hidden="true"></i> Languages:</strong> English, Korean<br>
                         <strong><i class="fa fa-birthday-cake" aria-hidden="true"></i> Birthday:</strong> August 1st, 1991<br>
                         <strong><i class="fa fa-home" aria-hidden="true"></i> Current Residence:</strong> Evanston, Illinois<br>
-                        <strong><i class="fa fa-futbol-o" aria-hidden="true"></i> Hobbies:</strong> Coding, Acoustic Guitar, Bass Guitar, Piano, Biking, Cooking, Reading, Travelling<br>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <br>
-                        <h3><i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i> I just want to explore, learn, try, and repeat.
-                            <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+                        <strong><i class="fa fa-futbol-o" aria-hidden="true"></i> Hobbies:</strong> Coding, Acoustic Guitar, Bass Guitar, Piano, Biking, Cooking, Reading, Travelling
                     </div>
                 </div>
             </div>
@@ -68,10 +68,10 @@
 
     <hr>
 
-    <div class="row social-media-row justify-content-md-center justify-content-sm-center justify-content-xs-center">
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://github.com/harryseong" class="social-media-icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></div>
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://www.linkedin.com/in/harry-seong-78957777" class="social-media-icon"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a></div>
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://www.facebook.com/harryhseong" class="social-media-icon"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a></div>
+    <div class="row social-media-row justify-content-md-center justify-content-sm-center justify-content-center">
+        <div class="col-lg-2 col-md-3 col-sm-3 col-3" align="center"><a href="https://github.com/harryseong" class="social-media-icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></div>
+        <div class="col-lg-2 col-md-3 col-sm-3 col-3" align="center"><a href="https://www.linkedin.com/in/harry-seong-78957777" class="social-media-icon"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a></div>
+        <div class="col-lg-2 col-md-3 col-sm-3 col-3" align="center"><a href="https://www.facebook.com/harryhseong" class="social-media-icon"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a></div>
     </div>
 
 @stop
