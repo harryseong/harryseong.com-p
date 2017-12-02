@@ -4,14 +4,15 @@ html {
 }
 
 body.body-red {
-    background-color: #e10000;
+    background-color: #f44336;
 }
 body.body-blue {
-    background-color: #1e6abc;
+    background-color: #2276d2;
 }
 body.body-gray {
     background-color: #333333;
 }
+
 
 /* Navbar */
 .navbar {
@@ -103,6 +104,18 @@ body.body-gray {
     border-radius: 50%;
     margin-right: 10px;
     shape-outside: circle(50%);
+}
+
+a.about-header {
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.25s;
+    text-decoration: none;
+    color: inherit;
+}
+a.about-header.hover {
+    font-size: 32px;
+    transition: 0.25s;
 }
 
 .image {

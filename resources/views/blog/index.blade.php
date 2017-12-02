@@ -17,7 +17,7 @@
                 <div class="card-body">
                     <h4>{{ $post->title }}</h4>
                     <p class="card-subtitle mb-2 text-muted">Published {{ date('F j, Y', strtotime($post->created_at)) }} | <span class="badge badge-secondary">{{ $post->category->name }}</span></p>
-                    <p class="card-text">{{ substr(strip_tags($post->body), 0, 250) }}{{ strlen(strip_tags($post->body)) > 250 ? "..." : "" }}</p>
+                    <p class="card-text">{{ substr(strip_tags($post->body), 0, 250) }}{{ strlen(strip_tags($post->body)) > 50 ? "..." : "" }}</p>
 
                     <div class="row">
                         <div class="col-md-12 d-flex justify-content-end">
