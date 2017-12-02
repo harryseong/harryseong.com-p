@@ -68,7 +68,7 @@
 
     <hr>
 
-    <div class="row justify-content-md-center justify-content-sm-center justify-content-xs-center">
+    <div class="row social-media-row justify-content-md-center justify-content-sm-center justify-content-xs-center">
         <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://github.com/harryseong" class="social-media-icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></div>
         <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://www.linkedin.com/in/harry-seong-78957777" class="social-media-icon"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a></div>
         <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" align="center"><a href="https://www.facebook.com/harryhseong" class="social-media-icon"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a></div>
@@ -81,17 +81,6 @@
         $("body").addClass("body-red");
         $(".navbar").removeClass("navbar-dark").addClass("navbar-light").addClass("navbar-transparent");
         $(".navbar-login").removeClass("navbar-login-dark").addClass("navbar-login-light");
-
-        $(document).ready(function() {
-
-            $(".about-header").hover(
-                function () {
-                    $(this).addClass("hover");
-                },
-                function () {
-                    $(this).removeClass("hover");
-                }
-            );
-        })
+        $(".about-header").addClass("collapsed");
     </script>
 @stop

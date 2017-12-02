@@ -78,15 +78,19 @@ body.body-gray {
     width:100%;
 }
 
+.social-media-row {
+    height: 70px;
+}
 .social-media-icon {
     color: inherit;
     opacity: 0.5;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 .social-media-icon:hover {
     color: inherit;
     text-decoration: none;
     opacity: 1;
+    font-size: 18px;
 }
 
 .spacing-top-30 {
@@ -106,17 +110,22 @@ body.body-gray {
     shape-outside: circle(50%);
 }
 
-a.about-header {
-    font-size: 30px;
+a.about-header{
+    font-size: 33px;
     font-weight: 600;
     transition: 0.25s;
     text-decoration: none;
     color: inherit;
 }
-a.about-header.hover {
-    font-size: 32px;
+a.about-header.collapsed {
+    font-size: 30px;
     transition: 0.25s;
 }
+a.about-header:hover {
+    font-size: 33px;
+    transition: 0.25s;
+}
+
 
 .image {
     max-width: 100%;
