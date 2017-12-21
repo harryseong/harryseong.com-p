@@ -3,8 +3,8 @@
 @section('title', '| Contact')
 
 @section('content')
-    <div class="row justify-content-md-center">
-        <div class="col-md-8">
+    <div class="row justify-content-lg-center justify-content-md-center justify-content-sm-center justify-content-center">
+        <div class="col-lg-10 col-md-10 col-sm-12 col-12">
             <div class="card">
                 <div class="card-body">
                     @include('partials._messages')

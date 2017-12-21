@@ -24,6 +24,7 @@ body.body-gray {
 .navbar-transparent {
     background-color: transparent;
 }
+
 .navbar:hover {
     z-index:3;
     height:60px;
