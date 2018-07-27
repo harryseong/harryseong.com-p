@@ -12,7 +12,7 @@
 
     @include('partials._nav')
 
-    <video autoplay="autoplay" id="bgvid">
+    <video autoplay="autoplay" id="bgvid" class="stopfade">
         <source src="videos/welcome.mp4" type="video/mp4"/>
     </video>
 
@@ -32,7 +32,7 @@
             <div class="col-md-12 col-sm-12"><a id="enter" href="{{ route('places.index') }}">Enter</a></div>
         </div>
 
-        <button id="vid-btn"><i class="fa fa-pause" aria-hidden="true"></i></button>
+        <button id="vid-btn"><i class="fa fa-play" aria-hidden="true"></i></button>
     </div>
 
     <div class="footer footer-fixed footer-dark">harryseong.com</div>

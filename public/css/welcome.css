@@ -81,12 +81,13 @@ button#vid-btn {
     transition: .5s;
     opacity: 0.4;
 }
-#vid-btn i {
+#vid-btn i, #vid-btn {
     opacity: 0.4;
 }
 button#vid-btn:hover {
     background: rgba(0, 0, 0, 0.5);
     opacity: 0.9;
+    cursor: pointer;
 }
 #vid-btn:focus {
     outline: none;
