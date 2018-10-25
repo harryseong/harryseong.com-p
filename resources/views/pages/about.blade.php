@@ -49,7 +49,7 @@
                             I have since picked up a few projects both inside and outside work while trying out different languages and frameworks. My desire is to stay
                             forever-curious and grow constantly as a human being. I just want to explore, learn, try, and repeat. The prospect of exploring realms unfamiliar to me always brings about
                             much excitement.</p>
-                        <p><strong>Currently... </strong>building an Angular/Spring Boot web application and taking a course on machine learning. Learning TensorFlow and how to play around with data sets.</p>
+                        <p><strong>Currently... </strong>freelancing, building a Angular web application, learning React.</p>
                     </div>
                     <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
                         <h3><i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i> I just want to explore, learn, try, and repeat.
