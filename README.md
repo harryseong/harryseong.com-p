@@ -1,3 +1,27 @@
+## README to run harryseong.com (legacy PHP Laravel 5.5.x)
+1. Ensure PHP 7.x is installed.
+2. Ensure Composer and Laravel 5.5.x are installed: (https://laravel.com/docs/5.5)
+3. Ensure MySQL DB 8.x engine is installed.
+4. Create MySQL database.
+5. Edit "config/database.php": update connections => mysql w/ DB configs add "modes" configs to :
+```
+            'modes'  => [
+                'ONLY_FULL_GROUP_BY',
+                'STRICT_TRANS_TABLES',
+                'NO_ZERO_IN_DATE',
+                'NO_ZERO_DATE',
+                'ERROR_FOR_DIVISION_BY_ZERO',
+                'NO_ENGINE_SUBSTITUTION',
+            ]
+```
+6. Duplicate ".env.example" to create ".env" file and update ".env" with DB configs.
+7. Update "resources/places/index.blade.php" and "resources/places/show.blade.php" with latest "mapboxgl.accessToken" value.
+8. Run ```php artisan key:generate``` to generate app encryption key.
+9. Run ```php artisan migrate``` to generate DB tables.
+10. Run ```php artisan server``` to start app on http://localhost:8000.
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
